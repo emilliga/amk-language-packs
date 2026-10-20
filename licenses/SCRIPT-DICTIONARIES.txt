@@ -1,0 +1,32 @@
+AMK additional script dictionaries
+
+Chinese (Simplified and Traditional): CC-CEDICT contributors, maintained by MDBG.
+Source and documentation: https://www.mdbg.net/chinese/dictionary?page=cc-cedict
+https://cc-cedict.org/wiki/
+License: Creative Commons Attribution-ShareAlike 4.0 International.
+AMK separates the two character forms, indexes Latin pinyin without tones, and
+displays pinyin with tone marks. Source definitions and readings are retained.
+
+Japanese: JMdict / EDICT, copyright James William BREEN and the Electronic
+Dictionary Research and Development Group (EDRDG).
+Project and documentation: https://www.edrdg.org/wiki/index.php/JMdict-EDICT_Dictionary_Project
+Dictionary license: https://www.edrdg.org/edrdg/licence.html
+License: Creative Commons Attribution-ShareAlike 4.0 International.
+AMK uses Japanese/English JMdict, respects reading restrictions, derives romaji
+from kana with pykakasi, and provides separate Hiragana and Katakana renderings.
+Kana-only options are writing choices, not a claim that kanji lack context.
+Source readings remain authoritative; Latin rendering is a learning aid.
+
+Hindi: Wiktionary contributors via Kaikki.org / Wiktextract.
+https://kaikki.org/dictionary/Hindi/
+https://en.wiktionary.org/wiki/Wiktionary:Copyrights
+License: Creative Commons Attribution-ShareAlike 4.0 International.
+AMK indexes source-supplied Latin romanizations. Entries without a source reading
+remain available by native spelling; readings are not invented.
+
+The full CC BY-SA 4.0 license is included alongside this notice. Source download
+URLs, hashes and pack hashes are recorded in language-packs.json. Derived data
+and reproduction scripts are published at https://github.com/emilliga/amk-language-packs.
+Dictionary entries are community data and can contain errors. Script dictionaries
+provide word candidates and sourced definitions, not continuous sentence IMEs or
+unverified joins to existing multilingual word senses.

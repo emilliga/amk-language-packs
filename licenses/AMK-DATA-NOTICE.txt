@@ -1,0 +1,25 @@
+AMK 1.0.0 release candidate: offline dictionary assets
+
+Wiktionary lexical, sense-specific translation and etymology data are adapted
+under CC BY-SA 4.0. See WIKTIONARY-NOTICE.txt for contributor attribution,
+source page links, changes, exact snapshots and reproducible build scripts.
+The full CC BY-SA 4.0 license is included in this folder.
+
+Vocabulary ranking: Hermit Dave, FrequencyWords, content/2018, based on
+OpenSubtitles 2018. https://github.com/hermitdave/FrequencyWords
+https://opus.nlpl.eu/OpenSubtitles2018.php
+Content license: Creative Commons Attribution ShareAlike 4.0 International.
+AMK retains 100,000 subtitle word forms per language as a frequency baseline,
+then adds Wiktionary lexical forms and native capitalization. Lists include
+conversational words, names, slang and potentially offensive vocabulary.
+They are not exhaustive or guaranteed spelling authorities.
+
+This version's translation strip uses labeled Wiktionary sense groups and
+does not use the older English-spelling FreeDict join. Historical FreeDict
+license files remain for prior source/build versions; the current lexicon
+packs contain no extracted FreeDict translation rows. Missing translations
+remain missing; sense choice still requires user judgment.
+
+Data source URLs and checksums: docs/lexicon-sources.json,
+docs/lexicon-manifest.json and the historical dictionary-manifest.json.
+Brand artwork and application source are separate from the data licenses.

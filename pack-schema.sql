@@ -1,0 +1,18 @@
+CREATE TABLE capitalization(language TEXT,folded TEXT,word TEXT,common INTEGER,PRIMARY KEY(language,folded,word)) WITHOUT ROWID;
+CREATE TABLE etymologies(language TEXT,folded TEXT,word TEXT,text TEXT,source_word TEXT,PRIMARY KEY(language,folded,text)) WITHOUT ROWID;
+CREATE TABLE inflections(language TEXT,folded TEXT,word TEXT,lemma TEXT,gender TEXT,number TEXT,pos TEXT,PRIMARY KEY(language,word,lemma,gender,number,pos)) WITHOUT ROWID;
+CREATE TABLE native_pos(language TEXT,folded TEXT,pos TEXT,PRIMARY KEY(language,folded,pos)) WITHOUT ROWID;
+CREATE TABLE sense_preferences(language TEXT,folded TEXT,sense_id TEXT,PRIMARY KEY(language,folded,sense_id)) WITHOUT ROWID;
+CREATE TABLE senses(id TEXT PRIMARY KEY,label TEXT,pos TEXT,source_language TEXT,source_word TEXT,priority INTEGER) WITHOUT ROWID;
+CREATE TABLE terms(sense_id TEXT,language TEXT,word TEXT,folded TEXT,priority INTEGER,notes TEXT NOT NULL DEFAULT '',PRIMARY KEY(sense_id,language,word)) WITHOUT ROWID;
+CREATE TABLE vocabulary(language TEXT,word TEXT,folded TEXT,rank INTEGER,PRIMARY KEY(language,word)) WITHOUT ROWID;
+CREATE INDEX capitalization_lookup ON capitalization(language,folded,common);
+CREATE INDEX etymology_lookup ON etymologies(language,folded);
+CREATE INDEX inflection_generate ON inflections(language,lemma,pos,gender,number);
+CREATE INDEX inflection_lookup ON inflections(language,folded);
+CREATE INDEX term_folded ON terms(folded);
+CREATE INDEX term_lookup ON terms(language,folded,priority);
+CREATE INDEX vocabulary_folded ON vocabulary(folded);
+CREATE INDEX vocabulary_prefix ON vocabulary(language,folded,rank);
+CREATE TABLE readings(language TEXT,word TEXT,reading TEXT,search TEXT,rank INTEGER,PRIMARY KEY(language,word,reading)) WITHOUT ROWID;
+CREATE INDEX reading_lookup ON readings(language,search,rank);

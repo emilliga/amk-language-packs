@@ -1,0 +1,148 @@
+{
+  "vocabulary_counts": {
+    "es": 100000,
+    "en": 100000,
+    "de": 100000,
+    "fr": 100000,
+    "it": 100000,
+    "hu": 100000,
+    "pt": 100000
+  },
+  "translation_rows": {
+    "de": 369539,
+    "fr": 13446,
+    "it": 70033,
+    "hu": 124508,
+    "pt": 27739,
+    "es": 96280
+  },
+  "sources": [
+    {
+      "file": "frequency-es.txt",
+      "bytes": 658626,
+      "url": "https://raw.githubusercontent.com/hermitdave/FrequencyWords/master/content/2018/es/es_50k.txt",
+      "sha256": "dcff3ad4316192f4dc4ff7d26e637c6ff314ef1ca0f3f720c5649018a71056c0"
+    },
+    {
+      "file": "frequency-en.txt",
+      "bytes": 622749,
+      "url": "https://raw.githubusercontent.com/hermitdave/FrequencyWords/master/content/2018/en/en_50k.txt",
+      "sha256": "5351ff405b1126ef555791dd4d9798a48e3e9a501a9fc481a9da957752cfb458"
+    },
+    {
+      "file": "frequency-de.txt",
+      "bytes": 662497,
+      "url": "https://raw.githubusercontent.com/hermitdave/FrequencyWords/master/content/2018/de/de_50k.txt",
+      "sha256": "d9e50546fd7e8b6fe6542a2b33c51d1331092b2a3916ec09f80d97856068705b"
+    },
+    {
+      "file": "frequency-fr.txt",
+      "bytes": 653452,
+      "url": "https://raw.githubusercontent.com/hermitdave/FrequencyWords/master/content/2018/fr/fr_50k.txt",
+      "sha256": "f81f7c570b6433764da99aa30f4dfb08d81c5926301377b709af23a13b1f9596"
+    },
+    {
+      "file": "frequency-it.txt",
+      "bytes": 653205,
+      "url": "https://raw.githubusercontent.com/hermitdave/FrequencyWords/master/content/2018/it/it_50k.txt",
+      "sha256": "bb96cdcb56d28342c1e909db6b2525448b7767136b7e86a2ccc649a1be66fc19"
+    },
+    {
+      "file": "frequency-hu.txt",
+      "bytes": 698652,
+      "url": "https://raw.githubusercontent.com/hermitdave/FrequencyWords/master/content/2018/hu/hu_50k.txt",
+      "sha256": "b765780a1277c3b1e326205c972b1ea1631732ec54ab489d13d21618ceab4fec"
+    },
+    {
+      "file": "frequency-pt.txt",
+      "bytes": 652361,
+      "url": "https://raw.githubusercontent.com/hermitdave/FrequencyWords/master/content/2018/pt/pt_50k.txt",
+      "sha256": "f97704382f97273ff59488b1885e7ac90d20f81fd92e5fbad3e3ce43633f495c"
+    },
+    {
+      "file": "eng-deu.tar.xz",
+      "bytes": 16742600,
+      "url": "https://download.freedict.org/dictionaries/eng-deu/1.9-fd1/freedict-eng-deu-1.9-fd1.src.tar.xz",
+      "sha256": "83a02d8eace3fbb460fa96c32c2d964a9bc1e1a63ea754021ac33042ee2d1d5f"
+    },
+    {
+      "file": "eng-fra.tar.xz",
+      "bytes": 212948,
+      "url": "https://download.freedict.org/dictionaries/eng-fra/0.1.6/freedict-eng-fra-0.1.6.src.tar.xz",
+      "sha256": "22dd26b7ff92007042ced20c2379bd3b182019758c3d58318c24e99206765d0b"
+    },
+    {
+      "file": "eng-hun.tar.xz",
+      "bytes": 1869568,
+      "url": "https://download.freedict.org/dictionaries/eng-hun/0.2.1/freedict-eng-hun-0.2.1.src.tar.xz",
+      "sha256": "f2aa642f38f0bade92c5ba9381324933024413590749a874e78a321f9d6f7a0e"
+    },
+    {
+      "file": "eng-ita.tar.xz",
+      "bytes": 2962524,
+      "url": "https://download.freedict.org/dictionaries/eng-ita/2025.11.23/freedict-eng-ita-2025.11.23.src.tar.xz",
+      "sha256": "8d3d4d353d0e28fbe973d07396c20a9cc50d13a1703a10641f6053eb26cb076f"
+    },
+    {
+      "file": "eng-por.tar.xz",
+      "bytes": 354072,
+      "url": "https://download.freedict.org/dictionaries/eng-por/0.3/freedict-eng-por-0.3.src.tar.xz",
+      "sha256": "9f02957f38ee97f711592de4542fc1e6e5c4fe82c11159c05fd69f4bd203ea94"
+    },
+    {
+      "file": "eng-spa.tar.xz",
+      "bytes": 3715012,
+      "url": "https://download.freedict.org/dictionaries/eng-spa/2025.11.23/freedict-eng-spa-2025.11.23.src.tar.xz",
+      "sha256": "dd724fb48c5701395c15d7d648a9e6f6b75d6ff4269e465dce6d3a292700198d"
+    },
+    {
+      "file": "frequency-README.md",
+      "bytes": 913,
+      "url": "https://raw.githubusercontent.com/hermitdave/FrequencyWords/master/README.md",
+      "sha256": "a92fcc50e27f7b2d5860ec1c1ce794dc4c892d945bfa4c8c3136cdfd213ee710"
+    },
+    {
+      "file": "frequency-es-full.txt",
+      "url": "https://raw.githubusercontent.com/hermitdave/FrequencyWords/master/content/2018/es/es_full.txt",
+      "bytes": 14547688,
+      "sha256": "b4794c425f3500c21a0ff9367175e36795a978c928a36670e9ad6ae206fb7728"
+    },
+    {
+      "file": "frequency-en-full.txt",
+      "url": "https://raw.githubusercontent.com/hermitdave/FrequencyWords/master/content/2018/en/en_full.txt",
+      "bytes": 19977552,
+      "sha256": "7fea67ab954e2c01df6c608c9826e594cf36f8823b3243554f88245fb75dc506"
+    },
+    {
+      "file": "frequency-de-full.txt",
+      "url": "https://raw.githubusercontent.com/hermitdave/FrequencyWords/master/content/2018/de/de_full.txt",
+      "bytes": 17479451,
+      "sha256": "a5fc13f4efaaf70fd9226d11295fd3cd4c2264852ee1fad22c0abaf64acec8dc"
+    },
+    {
+      "file": "frequency-fr-full.txt",
+      "url": "https://raw.githubusercontent.com/hermitdave/FrequencyWords/master/content/2018/fr/fr_full.txt",
+      "bytes": 10161151,
+      "sha256": "dda23c3025fc195b3a7996af26371dcf3abd1aa2cd7218dbbb7c92a49780ab0c"
+    },
+    {
+      "file": "frequency-it-full.txt",
+      "url": "https://raw.githubusercontent.com/hermitdave/FrequencyWords/master/content/2018/it/it_full.txt",
+      "bytes": 9677728,
+      "sha256": "b23b0c6a3f59c1da1c7caa667b9df5699e95323fee20a05f343c7d7dae73c4be"
+    },
+    {
+      "file": "frequency-hu-full.txt",
+      "url": "https://raw.githubusercontent.com/hermitdave/FrequencyWords/master/content/2018/hu/hu_full.txt",
+      "bytes": 46693881,
+      "sha256": "d97b4e6017f16b1c0fc5c9bbb8a89e013adffd966c258951ed9067e0e0439689"
+    },
+    {
+      "file": "frequency-pt-full.txt",
+      "url": "https://raw.githubusercontent.com/hermitdave/FrequencyWords/master/content/2018/pt/pt_full.txt",
+      "bytes": 9531379,
+      "sha256": "21ac5ba5840001d522f2a7b91cc7cd0b25d24a8dcea3ecf997277662859b8f2f"
+    }
+  ],
+  "notice": "Frequency lists include colloquial language, proper names and offensive terms. Coverage is not exhaustive. Translations are dictionary alternatives; non-English pairs use an English pivot and may not share the same sense."
+}

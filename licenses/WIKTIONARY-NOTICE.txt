@@ -1,0 +1,35 @@
+AMK sense-specific translations, lexical spellings and etymology data
+
+Source: English-language Wiktionary contributors, extracted by Tatu Ylonen's
+Wiktextract and published by Kaikki.org. Eight language subsets: English,
+Spanish, German, French, Italian, Hungarian, Portuguese and Turkish. Snapshot:
+Wiktionary dump 2026-09-02; extraction 2026-10-03. Accessed 2026-10-14/15.
+https://kaikki.org/dictionary/
+https://github.com/tatuylonen/wiktextract
+https://en.wiktionary.org/wiki/Wiktionary:Copyrights
+
+Data are adapted under Creative Commons Attribution-ShareAlike 4.0:
+https://creativecommons.org/licenses/by-sa/4.0/
+Full CC BY-SA 4.0 text is included in this folder. Wiktionary page attribution
+and revision history are available at https://en.wiktionary.org/wiki/<word>.
+The keyboard's origin panels include the source word and a source-page link.
+Sourced origin notes are stored as provided, up to 3000 characters, with a
+continuation marker and source link for longer notes. No history is invented.
+
+AMK adaptations: limited word/term formats; accent-folded indexes; explicit
+source entry + part of speech + etymology number + translation sense identities;
+selected seven-language translation terms; usage/region annotations and
+ranking; dictionary-native case records; source-linked origin records; SQLite
+packaging. Both entry-level and sense-nested translation lists are included.
+Translation labels are preserved without joining separate English homonyms.
+Postprocessed sense-placement probabilities are not used to join definitions.
+The adapted data remain CC BY-SA 4.0; code/brand licensing is separate.
+Community contributions and machine extraction can contain errors. Missing
+sense-specific targets are not filled from unrelated meanings.
+
+Exact download URLs, extraction dates and SHA-256 hashes are recorded in
+docs/lexicon-sources.json; pack counts/hashes in docs/lexicon-manifest.json.
+Reproduction: scripts/download-lexicon.py, scripts/build-lexicon.py,
+scripts/lexicon_model.py and scripts/lexicon_pack.py. Download caches stay
+outside Git. FrequencyWords/OpenSubtitles ranking data retain their own
+attribution in AMK-DATA-NOTICE.txt and CC BY-SA 4.0.
