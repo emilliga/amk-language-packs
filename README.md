@@ -41,3 +41,13 @@ is included. Read [AMK's privacy information](https://emilliga.github.io/amk-lan
 
 The published SQLite files are the editable preferred form of these derived
 data. Their source provenance is supplied for auditing and future refreshes.
+
+## Product and support pages — 2 November 2026
+
+GitHub Pages serves the product overview at index.html, setup/enrollment and
+Not found troubleshooting at support.html, and updated SDK/download disclosures
+at privacy.html. style.css and amk-icon.png are local assets; no tracking scripts,
+forms, third-party fonts or dependencies were added. Keep release availability
+honest and dated: Android closed test; iOS awaiting review at this checkpoint.
+After a store status change, update those statements and the private app handover.
+Do not publish tester addresses or claim that list membership proves enrollment.
