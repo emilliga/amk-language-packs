@@ -51,3 +51,7 @@ forms, third-party fonts or dependencies were added. Keep release availability
 honest and dated: Android closed test; iOS awaiting review at this checkpoint.
 After a store status change, update those statements and the private app handover.
 Do not publish tester addresses or claim that list membership proves enrollment.
+
+## Link preview handover — 3 November 2026
+
+Product, support and privacy pages now declare an absolute HTTPS Open Graph image, its actual 1254 × 1254 size, PNG type and alternative text, plus square social-card metadata and canonical URLs. The existing full-resolution brand asset is used without upscaling. The versioned image URL is `amk-icon.png?v=20261103`; change this version after future artwork updates. Previously sent messages may keep cached thumbnails. No messaging-app render has been verified.
